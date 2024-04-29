@@ -728,13 +728,6 @@ enum ItemType {
 
 pragma solidity 0.8.24;
 
-struct IDeploymentFees {
-    uint256 basic;
-    uint256 custom;
-    uint256 populer;
-    uint256 unconfirmed;
-}
-
 struct IDeploymentParams {
     ItemType itemType;
     string name;
